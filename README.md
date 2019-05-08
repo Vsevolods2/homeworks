@@ -1,2 +1,2 @@
-# homeworks
+# homeworks_lesson3
 Репозиторий с домашними работами Сурина Всеволода на курсе Web-start
