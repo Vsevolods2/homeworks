@@ -48,6 +48,7 @@ img {
 
 .contents {
 	position: fixed;
-	margin-left: 73%;
+	left: 81%;
 	background-color: #ececec;
+	z-index: -1000;
 }
