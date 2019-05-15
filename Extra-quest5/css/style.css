@@ -1,7 +1,7 @@
 body {
 	background-color: #FFEBCD;
 	padding: 100px;
-	padding-right: 250px;
+	padding-right: 260px;
 }
 
 h2 {
@@ -52,6 +52,7 @@ img {
 
 .contents {
 	position: fixed;
-	left: 82%;
+	right: 20px;
+	top: 75px;
 	background-color: #ececec;
 }
