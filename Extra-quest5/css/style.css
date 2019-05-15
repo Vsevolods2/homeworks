@@ -13,6 +13,10 @@ a {
 	text-decoration: none;
 }
 
+div{
+	position: relative;
+}
+
 .chapter_1 {
 	color: tomato;
 }
@@ -48,7 +52,6 @@ img {
 
 .contents {
 	position: fixed;
-	left: 81%;
+	left: 82%;
 	background-color: #ececec;
-	z-index: -1000;
 }
