@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+button {
+	width: 250px;
+	height: 50px;
+	color: #ffffff;
+	font-size: 19px;
+	background-color: #ec744a; 
+}
+.background {
+	padding-top: 86px;
+	padding-bottom: 86px;
+	padding-left: 48px;
+	padding-right: 5px;
+	background-color: #d7d7d7;
+	
+}
+.product {
+	margin-top: auto;
+	margin-right: 95px;
+	background-color: #ffffff;
+	border: 1px solid #d7d7d7;
+
+}
+.product-image {
+	padding-left: 48px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	display: inline-block;
+}
+
+.product-text {
+	display: inline-block;
+}
