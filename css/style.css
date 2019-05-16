@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #d7d7d7;
+	background-color: #f6f6f6;
 }
 
 button {
@@ -12,6 +12,8 @@ button {
 	color: #fff;
 	font-size: 19px;
 	background-color: #ec744a;
+	border: none;
+	cursor: pointer;
 }
 
 .product {
@@ -27,13 +29,13 @@ button {
 
 .product-text {
 	display: inline-block;
-	width: 393px;
+	width: 500px;
 	vertical-align: 40px;
 	font-family: sans-serif;
 }
 
 .price {
-	margin-top: 45px;
+	margin-top: 65px;
 }
 
 .sum {
