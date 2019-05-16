@@ -1,35 +1,43 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	background-color: #f6f6f6;
+}
+/* размеры кнопки по макету. последние две - для красоты от куратора*/
 button {
 	width: 250px;
 	height: 50px;
-	color: #ffffff;
+	color: #fff;
 	font-size: 19px;
-	background-color: #ec744a; 
+	background-color: #ec744a;
+	border: none;
+	cursor: pointer;
 }
-.background {
-	padding-top: 86px;
-	padding-bottom: 86px;
-	padding-left: 48px;
-	padding-right: 5px;
-	background-color: #d7d7d7;
-	
-}
+/* определили размер, отсчитывая к-ты от краёв браузера*/
 .product {
-	margin-top: auto;
-	margin-right: 95px;
-	background-color: #ffffff;
+	background-color: #fff;
+	margin: 86px 95px 86px 95px;
 	border: 1px solid #d7d7d7;
-
 }
+/* определяем отступы от product для картинки*/
 .product-image {
-	padding-left: 48px;
-	padding-top: 64px;
-	padding-bottom: 64px;
 	display: inline-block;
+	padding: 64px 48px 64px 48px;
 }
-
+/*подстраиваем под картинку, делаем ширину, ставим выше на 40пк.*/
 .product-text {
 	display: inline-block;
+	width: 500px;
+	vertical-align: 40px;
+	font-family: sans-serif;
+}
+/* увеличиваем расстояние от описания до "Цена" */
+.price {
+	margin-top: 65px;
+}
+/* увеличиваем размер ценника */
+.sum {
+	font-size: 28px;
 }
