@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+/* размеры кнопки по макету. последние две - для красоты от куратора*/
+button {
+	width: 250px;
+	height: 50px;
+	color: #fff;
+	font-size: 19px;
+	background-color: #ec744a;
+	border: none;
+	cursor: pointer;
+}
+/* определили размер, отсчитывая к-ты от краёв браузера*/
+.product {
+	background-color: #fff;
+	width: 1010px;
+	margin: 86px 95px 86px 95px;
+	border: 1px solid #d7d7d7;
+}
+/* определяем отступы от product для картинки*/
+.product-image {
+	display: inline-block;
+	padding: 64px 48px 64px 48px;
+}
+/*подстраиваем под картинку, делаем ширину, ставим выше на 40пк.*/
+.product-text {
+	display: inline-block;
+	width: 500px;
+	vertical-align: 40px;
+	font-family: sans-serif;
+}
+/* увеличиваем расстояние от описания до "Цена" */
+.price {
+	margin-top: 65px;
+}
+/* увеличиваем размер ценника */
+.sum {
+	font-size: 28px;
+}
