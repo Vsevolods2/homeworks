@@ -19,7 +19,7 @@ button {
 .product {
 	background-color: #fff;
 	width: 1010px;
-	margin: 86px 95px 86px 95px;
+	margin: 100px auto;
 	border: 1px solid #d7d7d7;
 }
 /* определяем отступы от product для картинки*/
