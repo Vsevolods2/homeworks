@@ -1,12 +1,17 @@
+body {
+	background-color: #f9f9f9;
+}
 .block {
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
 .element {
-	text-align: center;	
+	text-align: center;
+	padding-right: 30px;
 }
 
 button {
