@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 80px 113px 114px 114px;
+	border: 1px solid black;
+}
+
+.product {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+img {
+	width: 404px;
+	height: 603px;
+	padding-left: 10px;
+
+}
+
+.product-text {
+	width: 555px;
+	padding-left: 80px;
+	padding-top: 60px;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+.text-price{
+	font-weight: normal;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+button {
+	height: 67px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.buy-but {
+	width: 175px;
+	background-color: #f05a22;
+	color: #fff;
+	font-size: 23px;
+	margin-right: 5px;
+	font-weight: bolder;
+}
+
+.information-but {
+	width: 287px;
+	background-color: #fff;
+	color: #f05a22;
+	font-size: 23px;
+	border: 2px solid #f05a22;
+	font-weight: bolder;
+
+}
