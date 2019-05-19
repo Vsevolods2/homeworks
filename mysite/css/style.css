@@ -1,0 +1,14 @@
+.blocks {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.element {
+	text-align: center;
+	padding-right: 30px;
+}
+img {
+	height: 300px;
+}
